@@ -82,12 +82,12 @@ function calcul() {
     }
 }
 */
-var x = parseInt(document.getElementById('chiffre1').value);
-var y = parseInt(document.getElementById('chiffre2').value);
+var x = parseInt(document.getElementById('chiffre2').value);
+var y = parseInt(document.getElementById('chiffre5').value);
 var z = "";
 function add(){
   /*x = parseInt(document.getElementById('chiffre1').value);
-  y = parseInt(document.getElementById('chiffre2').value);*/console.log(x)
+  y = parseInt(document.getElementById('chiffre2').value);*/
   z = x + y;
   return "document.getElementById('resultat').innerHTML = z";
 }

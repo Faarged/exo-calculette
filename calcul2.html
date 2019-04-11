@@ -9,15 +9,23 @@
 
   <body>
 
-    <input type="button" value="2" onclick="nombre()" id="chiffre1" /> <!-- premier nombre-->
-
-    <input type="button" value="5" onclick="nombre()" id="chiffre2" /> <!-- deuxieme nombre-->
-
-    <input type="button" value="+" onclick="add()" id="plus"/> <!--addition-->
-    <input type="button" value="-" onclick="soust()" id="moins"/>
-    <input type="button" value="*" onclick="multiplication()" id="fois"/>
-    <input type="button" value="/" onclick="division()" id="sur"/>
-
+    <div class="interface">
+      <input type="button" value="1" onclick="chiffre(1)" id="chiffre1" />
+      <input type="button" value="2" onclick="chiffre(2)" id="chiffre2" /> <!-- premier nombre-->
+      <input type="button" value="3" onclick="chiffre(3)" id="chiffre3" />
+      <input type="button" value="4" onclick="chiffre(4)" id="chiffre4" />
+      <input type="button" value="5" onclick="chiffre(5)" id="chiffre5" /> <!-- deuxieme nombre-->
+      <input type="button" value="6" onclick="chiffre(6)" id="chiffre6" />
+      <input type="button" value="7" onclick="chiffre(7)" id="chiffre7" />
+      <input type="button" value="8" onclick="chiffre(8)" id="chiffre8" />
+      <input type="button" value="9" onclick="chiffre(9)" id="chiffre9" />
+      <input type="button" value="0" onclick="chiffre(0)" id="chiffre0" />
+      <!-- opérateurs de calculs-->
+      <input type="button" value="+" onclick="add()" id="plus"/> <!--addition-->
+      <input type="button" value="-" onclick="soust()" id="moins"/>
+      <input type="button" value="*" onclick="multiplication()" id="fois"/>
+      <input type="button" value="/" onclick="division()" id="sur"/>
+    </div>
 
 
 
