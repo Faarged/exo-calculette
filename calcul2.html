@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>calculs</title>
+    <link href="index.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <input type="button" value="2" onclick="nombre()" id="chiffre1" /> <!-- premier nombre-->
+
+    <input type="button" value="5" onclick="nombre()" id="chiffre2" /> <!-- deuxieme nombre-->
+
+    <input type="button" value="+" onclick="add()" id="plus"/> <!--addition-->
+    <input type="button" value="-" onclick="soust()" id="moins"/>
+    <input type="button" value="*" onclick="multiplication()" id="fois"/>
+    <input type="button" value="/" onclick="division()" id="sur"/>
+
+
+
+
+    <input type="button" value="=" onclick="calcul()" />   <!-- bouton action resultat -->
+
+    <div id="resultat"></div>
+
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

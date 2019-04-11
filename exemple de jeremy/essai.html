@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>calculs</title>
+    <script type="text/javascript" src="calcul.js"></script>
+  </head>
+
+  <body>
+
+
+    <h1>Calculatrice</h1>
+    <p>
+        Nombre 1 : <input type="text" id="nombre1" name="nombre1" />
+    </p>
+    <p>
+        + <input type="radio" id="r1" name="r" />
+        - <input type="radio" id="r2" name="r"/>
+        * <input type="radio" id="r3" name="r"/>
+        / <input type="radio" id="r4" name="r"/>
+    </p>
+    <p>
+        Nombre 2 : <input type="text" id="nombre2" name="nombre2" />
+    </p>
+    <p>
+        <input type="submit" onclick="calculer()" id="valider" name="valider" value="valider" />
+    </p>
+    <h2>Résultat</h2>
+    <div id="afficher"></div>
