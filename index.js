@@ -85,6 +85,18 @@ function calcul() {
 var x = parseInt(document.getElementById('chiffre2').value);
 var y = parseInt(document.getElementById('chiffre5').value);
 var z = "";
+var a = "";
+/*code a tester
+function chiffre(){
+  return "a = parseInt(document.getElementByTagName('input').value)";
+}
+
+if (add()= true || soust()= true || multiplication()= true || division()= true){
+  return "y = a";
+}
+else {
+  return 'x = "a';
+} */
 function add(){
   /*x = parseInt(document.getElementById('chiffre1').value);
   y = parseInt(document.getElementById('chiffre2').value);*/
